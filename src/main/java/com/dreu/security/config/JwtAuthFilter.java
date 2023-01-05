@@ -19,6 +19,7 @@ import java.io.IOException;
 public class JwtAuthFilter extends OncePerRequestFilter {
 
     private static final String BEARER_CONST = "Bearer ";
+    private final JwtService jwtService;
     @Override
     protected void doFilterInternal(
             @NonNull HttpServletRequest request,

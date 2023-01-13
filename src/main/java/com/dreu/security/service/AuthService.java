@@ -1,6 +1,5 @@
 package com.dreu.security.service;
 
-import com.dreu.security.config.JwtService;
 import com.dreu.security.enumeration.Role;
 import com.dreu.security.model.LoginDto;
 import com.dreu.security.model.ResponseToken;

@@ -1,5 +1,6 @@
 package com.dreu.security.config;
 
+import com.dreu.security.service.JwtService;
 import com.dreu.security.service.UsersService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
